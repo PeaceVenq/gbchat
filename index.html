@@ -3,7 +3,7 @@
 <head>
 	<title>GolbeChat</title>
 	<style>
-input.MyButton {
+MyButton {
 width: 300px;
 padding: 20px;
 cursor: pointer;
@@ -14,7 +14,7 @@ color: #fff;
 border: 1px solid #3366cc;
 border-radius: 10px;
 }
-input.MyButton:hover {
+MyButton:hover {
 color: #ffff00;
 background: #000;
 border: 1px solid #fff;
@@ -23,10 +23,8 @@ border: 1px solid #fff;
 </head>
 <body>
 	<center> <h2>Welcome To WebChat</h2></center>
-	<form>
-<input class="MyButton" type="button" value="Login" onclick="window.location.href='index.php'" />
-<input class="MyButton" type="button" value="Register Now" onclick="window.location.href='signup.php'" />
-</form>
+	<a href="index.php" class="MyButton">Login</a>
+	<a href="signup.php" class="MyButton">Register</a>
 
 </body>
 </html>
